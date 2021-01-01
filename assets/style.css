@@ -2,6 +2,29 @@ body {
     background-color: #fffbf1;
 }
 
+header {
+    text-align: center;
+}
+
+#banner {
+    background: url(./people.jpg) center center no-repeat;
+    background-size: cover;
+    height: 725px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-header {
+    background-color: #f0e2c1;
+    margin-right: 20%;
+    margin-left: 20%;
+    opacity: 90%;
+    padding: 50px;
+    color: #0000ff;
+    border: solid 3px #88d498;
+}
+
 main {
     font-size: 14pt;
 }
@@ -14,21 +37,57 @@ main {
     color: #1a936f;
 }
 
-.nav-head:hover {
+.nav-head:hover, 
+h4,
+.trailblazers-header,
+.card-title-2 {
     color: #ff9d00;
 }
 
+.card-title-4 {
+    color: #ff1616;
+}
+
 .nav-small {
-    color: #ff1654;
+    color: #ff1616;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.nav-small:hover {
+.nav-small:hover,
+.intro,
+.current,
+.card-title-5 {
     color: #0000ff;
 }
 
-.intro {
-    color: #0000ff;    
+
+.featured,
+.featured-header,
+.card-title-3 {
+    color: #950595;
+}
+
+.card-title-1 {
+    color: #88d498;
+}
+
+.card-title-6 {
+    color: #e7d10c;
+}
+
+.featured-header,
+.trailblazers-header {
+    padding-bottom: 30px;
+    border-bottom: solid 5px #f0e2c1;
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.container-featured {
+    padding-bottom: 40px;
+    border-bottom: solid 3px #f0e2c1;
+    margin-right: 7%;
+    margin-left: 7%;
 }
 
 .btn {
@@ -46,6 +105,48 @@ main {
     min-width: 150px;
     float: left;
     margin-right: 15px;
+}
+
+.img-featured {
+    max-width: 350px;
+    min-width: 150px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.contain-tb {
+    margin: auto;
+    max-width: 1150px;
+}
+
+.card {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.card-1 {
+    border: solid 2px #88d498;
+}
+
+.card-2 {
+    border: solid 2px #ff9d00;
+}
+
+.card-3 {
+    border: solid 2px #950595;
+}
+
+.card-4 {
+    border: solid 2px #ff1616;
+}
+
+.card-5 {
+    border: solid 2px #0000ff;
+}
+
+.card-6 {
+    border: solid 2px #e7d10c;
 }
 
 /* General settings for footer */
