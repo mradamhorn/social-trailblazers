@@ -6,6 +6,10 @@ header {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+}
+
 #banner {
     background: url(./people.jpg) center center no-repeat;
     background-size: cover;
@@ -67,7 +71,8 @@ h4,
     color: #950595;
 }
 
-.card-title-1 {
+.card-title-1,
+.contact-header {
     color: #88d498;
 }
 
@@ -76,7 +81,8 @@ h4,
 }
 
 .featured-header,
-.trailblazers-header {
+.trailblazers-header,
+.contact-header {
     padding-bottom: 30px;
     border-bottom: solid 5px #f0e2c1;
     margin-right: 7%;
