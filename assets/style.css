@@ -192,7 +192,8 @@ h4,
     border: solid 1px #f0e2c1;
 }
 
-.page-link:hover {
+.page-link:hover,
+.page-link:active {
     color: #fffbf1;
     background-color: #ff9d00;
 }
