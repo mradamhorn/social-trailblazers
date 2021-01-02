@@ -104,13 +104,11 @@ h4,
 .container-featured {
     padding-bottom: 40px;
     border-bottom: solid 3px #f0e2c1;
-    margin-right: 7%;
-    margin-left: 7%;
+    margin: auto;
 }
 
 .container-featured-2 {
-    margin-right: 7%;
-    margin-left: 7%;
+    margin: auto;
 }
 
 .btn {
@@ -218,7 +216,7 @@ footer {
 
     .container-featured,
     .container-featured-2 {
-        margin-right: 3%;
-        margin-left: 3%;
+        margin: auto;
+        
     }
 }
