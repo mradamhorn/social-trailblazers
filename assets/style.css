@@ -44,11 +44,13 @@ main {
 .nav-head:hover, 
 h4,
 .trailblazers-header,
-.card-title-2 {
+.card-title-2,
+.art-link:hover {
     color: #ff9d00;
 }
 
-.card-title-4 {
+.card-title-4,
+.news-header {
     color: #ff1616;
 }
 
@@ -72,7 +74,8 @@ h4,
 }
 
 .card-title-1,
-.contact-header {
+.contact-header,
+.art-link {
     color: #88d498;
 }
 
@@ -82,7 +85,8 @@ h4,
 
 .featured-header,
 .trailblazers-header,
-.contact-header {
+.contact-header,
+.news-header {
     padding-bottom: 30px;
     border-bottom: solid 5px #f0e2c1;
     margin-right: 7%;
@@ -103,7 +107,7 @@ h4,
 
 .btn:hover {
     color: #0000ff;
-    background-color: #ff9d008c;
+    background-color: #88d49888;
 }
 
 .img-thumbnail {
@@ -111,6 +115,15 @@ h4,
     min-width: 150px;
     float: left;
     margin-right: 15px;
+}
+
+.img-news {
+    max-width: 200px;
+    min-width: 100px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .img-featured {
@@ -127,8 +140,7 @@ h4,
 }
 
 .card {
-    margin-right: 15px;
-    margin-left: 15px;
+    margin: 15px;
 }
 
 .card-1 {
@@ -153,6 +165,12 @@ h4,
 
 .card-6 {
     border: solid 2px #e7d10c;
+}
+
+.news-row {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: solid 2px #f0e2c1;
 }
 
 /* General settings for footer */
