@@ -1,15 +1,19 @@
+/* Website background settings */
 body {
     background-color: #fffbf1;
 }
 
+/* Alignment of page headers */
 header {
     text-align: center;
 }
 
+/* Removal of default anchor link decoration, such as underline */
 a {
     text-decoration: none;
 }
 
+/* Settings for people image for Home page banner */
 #banner {
     background: url(./people.jpg) center center no-repeat;
     background-size: cover;
@@ -19,6 +23,7 @@ a {
     align-items: center;
 }
 
+/* Settings for header on Home page to display on top of banner image and function smoothly with smaller screens */
 .banner-header {
     background-color: #f0e2c1;
     margin-right: 15%;
@@ -32,23 +37,34 @@ a {
     text-align: center;
 }
 
+/* General settings for Main sections on pages */
 main {
     font-size: 14pt;
 }
 
+/* Background color for navigation bar on each page */
 .navbar {
     background-color: #f0e2c1;
 }
 
+/* Default color for navigation bar header, width set at 60% as hack to keep single line when scaling to smaller screens */
 .nav-head {
     color: #1a936f;
     width: 60%;
 }
 
+/* Setting for navigation bar toggler alignment */
 .navbar-toggler {
     margin-right: 25px;
 }
 
+/* Default settings for navigation bar page links */
+.nav-small {
+    color: #ff1616;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Font color - orange*/
 .nav-head:hover, 
 h4,
 .trailblazers-header,
@@ -57,16 +73,13 @@ h4,
     color: #ff9d00;
 }
 
+/* Font color - red */
 .card-title-4,
 .news-header {
     color: #ff1616;
 }
 
-.nav-small {
-    color: #ff1616;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
+/* Font color - blue */
 .nav-small:hover,
 .intro,
 .current,
@@ -74,23 +87,26 @@ h4,
     color: #0000ff;
 }
 
-
+/* Font color - purple */
 .featured,
 .featured-header,
 .card-title-3 {
     color: #950595;
 }
 
+/* Font color - mint green */
 .card-title-1,
 .contact-header,
 .art-link {
     color: #88d498;
 }
 
+/* Font color - yellow */
 .card-title-6 {
     color: #e7d10c;
 }
 
+/* General settings for page headers */
 .featured-header,
 .trailblazers-header,
 .contact-header,
@@ -101,26 +117,31 @@ h4,
     margin-left: 7%;
 }
 
+/* Settings for container for top Featured Trailblazer */
 .container-featured {
     padding-bottom: 40px;
     border-bottom: solid 3px #f0e2c1;
     margin: auto;
 }
 
+/* Settings for container for bottom Featured Trailblazer, did not want to include bottom padding or bottom border as top container */
 .container-featured-2 {
     margin: auto;
 }
 
+/* Default colors for buttons */
 .btn {
     background-color: #ff9d00;
     color: #f5f5f5;
 }
 
+/* Hover colors for buttons */
 .btn:hover {
     color: #0000ff;
     background-color: #88d49888;
 }
 
+/* Settings for thumbnail images, used on Home page Featured summaries */
 .img-thumbnail {
     max-width: 250px;
     min-width: 150px;
@@ -128,6 +149,7 @@ h4,
     margin-right: 15px;
 }
 
+/* Settings for images used for news articles */
 .img-news {
     max-width: 200px;
     min-width: 100px;
@@ -137,6 +159,7 @@ h4,
     margin-bottom: 20px;
 }
 
+/* Settings for images used on Featured page */
 .img-featured {
     max-width: 350px;
     min-width: 150px;
@@ -145,17 +168,20 @@ h4,
     margin-bottom: 10px;
 }
 
+/* Settings for container on Trailblazer page */
 .contain-tb {
     margin: auto;
     max-width: 1150px;
 }
 
+/* Trailblazer card settings */
 .card {
     margin: auto;
     margin-bottom: 15px;
     margin-top: 15px;
 }
 
+/* Trailblazer card borders */
 .card-1 {
     border: solid 2px #88d498;
 }
@@ -180,20 +206,22 @@ h4,
     border: solid 2px #e7d10c;
 }
 
+/* Settings for rows on News page */
 .news-row {
     padding-bottom: 5px;
     margin-bottom: 10px;
     border-bottom: solid 2px #f0e2c1;
 }
 
+/* Default settings for pagination element */
 .page-link {
     color: #ff9d00;
     background-color: #fffbf1;
     border: solid 1px #f0e2c1;
 }
 
-.page-link:hover,
-.page-link:active {
+/* Hover settings for pagination element */
+.page-link:hover {
     color: #fffbf1;
     background-color: #ff9d00;
 }
@@ -210,6 +238,7 @@ footer {
     position: absolute;    
 }
 
+/* Settings for small screes under 400px width */
 @media screen and (max-width: 400px) {
     .img-news,
     .img-featured {
@@ -226,6 +255,7 @@ footer {
     }
 }
 
+/* Setting to add border and padding between Featured elements on Home page */
 @media screen and (max-width: 578px) {
     .featured {
         border-top: solid 2px #f0e2c1;
