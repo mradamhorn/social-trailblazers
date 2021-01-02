@@ -39,6 +39,11 @@ main {
 
 .nav-head {
     color: #1a936f;
+    margin-right: 25px;
+}
+
+.navbar-toggler {
+    margin-right: 25px;
 }
 
 .nav-head:hover, 
