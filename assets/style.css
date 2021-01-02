@@ -211,7 +211,14 @@ footer {
 }
 
 @media screen and (max-width: 400px) {
-    .img-news {
-        max-width: 350px;
+    .img-news,
+    .img-featured {
+        max-width: 325px;
+    }
+
+    .container-featured,
+    .container-featured-2 {
+        margin-right: 3%;
+        margin-left: 3%;
     }
 }
