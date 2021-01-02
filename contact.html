@@ -19,33 +19,39 @@
 <body>
     
     <!-- Header -->
-    <nav class="navbar fixed-top shadow-sm">
+    <nav class="navbar fixed-top shadow-sm navbar-expand-xl navbar-light">
         <!-- Navbar Header -->
         <a href="./index.html" class="nav-link nav-head display-6 mx-3 mb-2">Social Trailblazers</a>
         
-        <!-- Right-aligned nav -->
-        <ul class="nav nav-white justify-content-end mx-4">
-            
-            <li class="nav-item">
-                <a class="nav-link nav-small" href="./index.html">Home</a>
-            </li>
+        <!-- Toggler/collapsible button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <li class="nav-item">
-                <a class="nav-link nav-small" href="./featured.html">Featured</a>
-            </li>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse justify-content-end mx-3" id="collapsibleNavbar">
+            <ul class="nav nav-white justify-content-end mx-4">
+                
+                <li class="nav-item">
+                    <a class="nav-link nav-small" href="./index.html">Home</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link nav-small" href="./trailblazers.html">Trailblazers</a>
-            </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-small" href="./featured.html">Featured</a>
+                </li>
 
-            <li class="nav-item">
-                <a class="nav-link nav-small" href="./news.html">News</a>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link nav-small current" href="./contact.html">Contact</a>
-            </li>
-        </ul>
+                <li class="nav-item">
+                    <a class="nav-link nav-small" href="./trailblazers.html">Trailblazers</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link nav-small" href="./news.html">News</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link nav-small current" href="./contact.html">Contact</a>
+                </li>
+            </ul>
     </nav>
 
      <!-- Page Header -->
@@ -58,14 +64,9 @@
         
         <div class="container mt-5">
             <div class="row">
-                            
-                <div class="col">
-                    <img src="./assets/contact.png" class="img-fluid shadow rounded" alt="Contact us"/>
-                </div>
-    
-                <div class="col">
                     <p>Everyday, there are average people charting new paths as to how we can all improve upon society. We try to know about them but, with 7 billion people on this planet, it's tough to know all the good that people are doing. That's why we need you to share if you know someone we missed. So, send us a note! We'd love to hear from you. </p>
                     
+                    <!-- Contact form -->
                     <div class="mb-3">
                         <label class="form-label">Name</label>
                         <input type="name" class="form-control" placeholder="Name">
@@ -78,8 +79,7 @@
                         <label class="form-label">Share your thoughts!</label>
                         <textarea class="form-control" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn">Submit</button> 
-                </div>
+                    <div><button type="submit" class="btn">Submit</button></div>
             </div> 
         </div>
         
