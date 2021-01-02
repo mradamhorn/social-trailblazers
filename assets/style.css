@@ -151,7 +151,9 @@ h4,
 }
 
 .card {
-    margin: 15px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .card-1 {
@@ -217,6 +219,16 @@ footer {
     .container-featured,
     .container-featured-2 {
         margin: auto;
-        
+    }
+
+    .nav-head {
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .featured {
+        border-top: solid 2px #f0e2c1;
+        padding-top: 25px;
     }
 }
